@@ -6,6 +6,7 @@
 .nav-container {
   width: 100%;
   background-color: aliceblue;
+  display: flex;
 }
 .nav {
   display: flex;
@@ -14,15 +15,14 @@
 }
 
 .nav-logo {
-  height: 34px;
-  margin-right: 10px;
+  height: 64px;
+  margin-left: 60px;
   align-self: center;
-  align-items: baseline;
 }
 
 .nav-menu {
-  height: 4rem;
-  padding: 0 2rem;
+  height: 5rem;
+  width: fit-content;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -35,10 +35,9 @@ li {
   justify-content: space-between;
   align-items: baseline;
   row-gap: 50px;
+  padding: 15px;
 }
 
-.nav-search {
-  width: 800px;
-
-  align-self: center;
+li a {
+  justify-content: space-between;
 }
