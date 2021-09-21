@@ -1,0 +1,44 @@
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+.nav-container {
+  width: 100%;
+  background-color: aliceblue;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.nav-logo {
+  height: 34px;
+  margin-right: 10px;
+  align-self: center;
+  align-items: baseline;
+}
+
+.nav-menu {
+  height: 4rem;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+
+li {
+  display: inline;
+  justify-content: space-between;
+  align-items: baseline;
+  row-gap: 50px;
+}
+
+.nav-search {
+  width: 800px;
+
+  align-self: center;
+}
