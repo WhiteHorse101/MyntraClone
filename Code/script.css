@@ -7,7 +7,7 @@
   width: 100%;
   background-color: white;
   display: flex;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.5px 0.5px 1.5px rgba(0, 0, 0, 0.2);
 }
 .nav {
   display: flex;
@@ -55,4 +55,45 @@ input {
   border: none;
   border-radius: 5px;
   background-color: #f5f5f5;
+}
+
+.banner {
+  max-width: 500px;
+  max-height: fit-content;
+  top: 45px;
+}
+
+.slideshow-container {
+  max-width: fit-content;
+  max-height: fit-content;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  top: 45px;
+}
+
+.slides {
+  width: max-content;
+  height: max-content;
+  display: flex;
+}
+
+.slide1 {
+  width: 1600px;
+}
+
+.slide2 {
+  width: 1600px;
+}
+
+.slide3 {
+  width: 1600px;
+}
+
+.slide4 {
+  width: 1600px;
+}
+
+.slide5 {
+  width: 1600px;
 }
